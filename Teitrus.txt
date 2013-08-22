@@ -1,0 +1,9 @@
+Classes
+=======
+ * Grid
+ * Timer
+ * Tetrimino
+ * Score
+ 
+ xGrid * 50 + 20
+ yGrid * 50 + 20
