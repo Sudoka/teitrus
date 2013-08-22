@@ -1,0 +1,8 @@
+*.o
+*.swp
+*.exe
+.cproject
+.project
+.settings/*
+Debug/*
+
