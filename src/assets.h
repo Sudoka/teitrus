@@ -1,5 +1,8 @@
 #include <string>
 
+#ifndef TEITRUS_ASSETS_H_
+#define TEITRUS_ASSETS_H_
+
 /* Paths */
 const std::string kPathRoot   = "";
 const std::string kPathAssetS = kPathRoot   + "assets/";
@@ -25,3 +28,4 @@ const std::string AssetArtTetroS = kPathArt + "tetros.png";
 const std::string AssetArtTetroT = kPathArt + "tetrot.png";
 const std::string AssetArtTetroZ = kPathArt + "tetroz.png";
 
+#endif

@@ -1,5 +1,5 @@
-const int kBlockWidth    = 50;
-const int kBlockHeight   = 50;
+#ifndef TEITRUS_TETRIMINO_H_
+#define TEITRUS_TETRIMINO_H_
 const int kBlockVelocity = 200;
 
 class Tetrimino
@@ -14,6 +14,9 @@ class Tetrimino
         SDL_Surface * surface;
 
     public:
+
+        const int kBlockWidth    = 50;
+        const int kBlockHeight   = 50;
         const int kNumberOfTetroTypes = 7;
         const int kTetroI = 0;
         const int kTetroJ = 1;
@@ -29,3 +32,5 @@ class Tetrimino
         void show(SDL_Surface *);
         void rotate(float);
 };
+
+#endif

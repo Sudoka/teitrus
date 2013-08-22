@@ -1,3 +1,6 @@
+#ifndef TEITRUS_TIMER_H_
+#define TEITRUS_TIMER_H_
+
 class Timer
 {
     private:
@@ -28,3 +31,5 @@ class Timer
         bool is_started();
         bool is_paused();
 };
+
+#endif

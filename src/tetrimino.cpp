@@ -2,6 +2,7 @@
 #include "SDL/SDL_image.h"
 #include "Tetrimino.h"
 #include "constants.h"
+#include "grid.h"
 
 Tetrimino::Tetrimino()
 {
@@ -19,8 +20,8 @@ Tetrimino::Tetrimino()
     surface = load_image_alpha(art_asset_);
 
     //Initialize the offsets
-    x_position_= 0;
-    y_position_= 0;
+    x_position_= kSpawnX;
+    y_position_= kSpawnY;
 
     //Initialize the velocity
     x_velocity_ = 0;

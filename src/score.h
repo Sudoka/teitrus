@@ -1,3 +1,6 @@
+#ifndef TEITRUS_SCORE_H_
+#define TEITRUS_SCORE_H_
+
 class Score
 {
     private:
@@ -11,3 +14,5 @@ class Score
         void increment(int);
         void show();
 };
+
+#endif
