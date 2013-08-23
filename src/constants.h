@@ -1,4 +1,5 @@
 #include <string>
+#include "grid.h"
 
 #ifndef TEITRUS_CONSTANTS_H_
 #define TEITRUS_CONSTANTS_H_
@@ -18,8 +19,5 @@ const Uint32 kAlphaMask = 0x000000ff;
 
 const int kTitleX = 550;
 const int kTitleY = 100;
-
-const int kScoreX = 540;
-const int kScoreY = 192;
 
 #endif
